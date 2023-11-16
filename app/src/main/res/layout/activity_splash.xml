@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:text="v:1.0"/>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="50dp"
+            android:layout_width="335dp"
+            android:layout_height="338dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo_asli_removebg_preview__1_" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:text="Selamat Datang Admin"/>
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="Powered by : PKL UNU BLITAR 2023"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
